@@ -1,0 +1,214 @@
+body {
+  --bege: #E6E0D6;
+  --marrom-escuro: #816D4F;
+  --marrom-claro: #B29463;
+  font-family: 'Barlow', sans-serif;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-margin-top: .8em;
+}
+span.navbar-toggler-icon {
+  background-color: #cfe2ff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bi bi-moon-stars {
+  cursor: pointer;
+}
+::-webkit-scrollbar{
+	width:10px;
+}
+::-webkit-scrollbar-thumb{
+	width:10px;
+	background:var(--marrom-claro);
+	border-radius:30px;
+}
+.title-1 {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: left;
+  font-size: 40px;
+  margin-left: 20px;
+}
+.paragraph1 {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: left;
+  font-size: 23px;
+  margin-left: 20px;
+}
+.title-2 {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+.paragraph-2 {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 23px;
+}
+input[type=checkbox] {
+  border: 2px solid var(--marrom-claro);
+  box-shadow: none;
+}
+.card-title {
+  text-align: center;
+}
+.offcanvas-title {
+  color: #E6E0D6;
+  text-align: center;
+}
+.accordion-body {
+  border-radius: 15px;
+}
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+.banner-1 {
+  background-image: url(../assets/fundo-home.jpg);
+}
+
+.banners {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.banners-titulo {
+  --bs-bg-opacity: .2;
+}
+
+.banner-2{
+  background-image: url(../assets/fundo-cafeteria.jpg);
+}
+
+.banner-3{
+  background-image: url(../assets/banner-3.png);
+}
+.banners {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banners-titulo {
+    --bs-bg-opacity: .2;
+}
+.botao-padrao {
+  background-color: var(--marrom-claro);
+  color: black;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.botao-padrao:hover {
+  transition: all .2s ease-in-out;
+  color: #E6E0D6;
+  background-color: var(--marrom-escuro);
+}
+.card-back {
+  background-image: url(../assets/fundo-bistrô.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-back-1 {
+  background-image: url(../assets/fundo-buffet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-back-2 {
+  background-image: url(../assets/fundo-delivery.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.input-range::-webkit-slider-thumb{
+ background-color: var(--marrom-claro);
+}
+.icons i{
+  color: #fff;
+  width: 30px;
+  cursor: pointer;
+}
+.title-3 {
+  font-size: 28px;
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+}
+.icons i:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+  color: #E6E0D6;
+}
+.accordion-button {
+  text-align: center;
+}
+[data-bs-theme="dark"] {
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color:#fff;
+    --bs-card-color:#fff;
+    --bs-offcanvas-color: #fff;
+    --bs-body-color: #fff;
+    --bs-btn-color: #fff;
+  }
+}
+.contato {
+  width: 100%;
+}
+footer {
+  background-color: var(--marrom-escuro);
+}
+footer p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+}
+
+/* responsividade tablet */
+@media(max-width:768px) {
+  .title-1 {
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+  }
+  .paragraph1 {
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+  }
+  .title-2 h2 {
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+  }
+  .paragraph-2 p {
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}
