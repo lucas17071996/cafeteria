@@ -53,6 +53,28 @@ span.navbar-toggler-icon {
   margin-left: 20px;
   font-size: 23px;
 }
+.main-btn{
+  margin-left:-75rem;
+  background: transparent;
+  border: 1px solid #fff;
+  padding:0px 15px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  border-radius: 15px;
+  color: #fff;
+}
+.main-btn:hover {
+  transition: all .2s ease-in-out;
+  background-color: var(--marrom-escuro);
+}
+i {
+  color:#fff;
+}
+i:hover {
+  transition: all .2s ease-in-out;
+  color: #25d366;
+}
 input[type=checkbox] {
   border: 2px solid var(--marrom-claro);
   box-shadow: none;
@@ -176,9 +198,9 @@ input[type="checkbox"]:focus {
 }
 footer {
   background-color: var(--marrom-escuro);
+  color: #fff;
 }
 footer p {
-  color: #fff;
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
 }
