@@ -54,7 +54,7 @@ span.navbar-toggler-icon {
   font-size: 23px;
 }
 .main-btn{
-  margin-left:-75rem;
+  margin-left: -72rem;
   background: transparent;
   border: 1px solid #fff;
   padding:0px 15px;
@@ -68,11 +68,11 @@ span.navbar-toggler-icon {
   transition: all .2s ease-in-out;
   background-color: var(--marrom-escuro);
 }
-i {
-  color:#fff;
+.main-btn i {
+  color: #fff;
 }
-i:hover {
-  transition: all .2s ease-in-out;
+.main-btn i:hover {
+  transition: all.2s ease-in-out;
   color: #25d366;
 }
 input[type=checkbox] {
