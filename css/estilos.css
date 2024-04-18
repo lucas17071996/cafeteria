@@ -97,7 +97,7 @@ input[type="checkbox"]:focus {
   outline: none;
 }
 .banner-1 {
-  background-image: url(../assets/fundo-home.jpg);
+  background-image: url(../assets/fundo-home.webp);
 }
 
 .banners {
@@ -113,7 +113,7 @@ input[type="checkbox"]:focus {
 }
 
 .banner-2{
-  background-image: url(../assets/fundo-cafeteria.jpg);
+  background-image: url(../assets/fundo-cafeteria.webp);
 }
 
 .banner-3{
@@ -145,20 +145,20 @@ input[type="checkbox"]:focus {
   background-color: var(--marrom-escuro);
 }
 .card-back {
-  background-image: url(../assets/fundo-bistrô.jpg);
+  background-image: url(../assets/fundo-bistrô.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .card-back-1 {
-  background-image: url(../assets/fundo-buffet.jpg);
+  background-image: url(../assets/fundo-buffet.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .card-back-2 {
-  background-image: url(../assets/fundo-delivery.jpg);
+  background-image: url(../assets/fundo-delivery.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -206,18 +206,37 @@ footer p {
 }
 
 /* responsividade tablet */
-@media(max-width:768px) {
+@media(max-width:988px) {
+  
+  .banner-1 {
+    background-image: url(../assets/fundo-home-mobile.jpg);
+  }
+  .banners {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .banner-2{
+    background-image: url(../assets/fundo-cafeteria-mobile.jpg);
+  }
+
   .title-1 {
     font-family: "Barlow", sans-serif;
     color: #fff;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
   }
   .paragraph1 {
     font-family: "Barlow", sans-serif;
     color: #fff;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
   }
   .title-2 h2 {
     font-family: "Barlow", sans-serif;
@@ -232,5 +251,27 @@ footer p {
     margin-top: 10px;
     margin-left: 20px;
     font-size: 20px;
+  }
+  .main-btn{
+    margin-left:4rem;
+    background: transparent;
+    border: 1px solid #fff;
+    padding:0px 15px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 15px;
+    color: #fff;
+  }
+  .main-btn:hover {
+    transition: all .2s ease-in-out;
+    background-color: var(--marrom-escuro);
+  }
+  .main-btn i {
+    color: #fff;
+  }
+  .main-btn i:hover {
+    transition: all.2s ease-in-out;
+    color: #25d366;
   }
 }
