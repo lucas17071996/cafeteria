@@ -15,8 +15,13 @@ span.navbar-toggler-icon {
   padding: 10px;
   border-radius: 10px;
 }
-.bi bi-moon-stars {
+.bi.bi-moon-stars {
   cursor: pointer;
+  color:var(--marrom-claro);
+  font-size:16px;
+  border: 1px solid #d1d1d1;
+  padding:2px;
+  border-radius:50%;
 }
 ::-webkit-scrollbar{
 	width:10px;
