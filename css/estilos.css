@@ -103,6 +103,8 @@ input[type="checkbox"]:focus {
 }
 .banner-1 {
   background-image: url(../assets/fundo-home.webp);
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .banners {
