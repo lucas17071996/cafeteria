@@ -230,7 +230,10 @@ footer p {
   .banner-2{
     background-image: url(../assets/fundo-cafeteria-mobile.jpg);
   }
-
+.banners-titulo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
   .title-1 {
     font-family: "Barlow", sans-serif;
     color: #fff;
