@@ -5,6 +5,10 @@ body {
   font-family: 'Barlow', sans-serif;
   overflow-x: hidden;
 }
+::selection {
+    background-color: var(--marrom-claro);
+    color: #fff;
+}
 html {
   scroll-behavior: smooth;
   scroll-margin-top: .8em;
