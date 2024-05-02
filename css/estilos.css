@@ -1,17 +1,15 @@
-body {
+body,html {
   --bege: #E6E0D6;
   --marrom-escuro: #816D4F;
   --marrom-claro: #B29463;
   font-family: 'Barlow', sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-margin-top: .8em;
 }
 ::selection {
     background-color: var(--marrom-claro);
     color: #fff;
-}
-html {
-  scroll-behavior: smooth;
-  scroll-margin-top: .8em;
 }
 span.navbar-toggler-icon {
   background-color: #cfe2ff;
@@ -34,6 +32,24 @@ span.navbar-toggler-icon {
 	width:10px;
 	background:var(--marrom-claro);
 	border-radius:30px;
+}
+#servicos {
+width: 100%;
+height: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#produtos {
+width: 100%;
+height: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.title-produtos {
+margin-top: 2rem;
+}
+.title-servicos {
+  margin-top: 2rem;
 }
 .title-1 {
   font-family: "Barlow", sans-serif;
@@ -204,8 +220,14 @@ input[type="checkbox"]:focus {
     --bs-btn-color: #fff;
   }
 }
-.contato {
+#contato{
   width: 100%;
+  height:600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+form {
+  margin-top: 40px;
 }
 footer {
   background-color: var(--marrom-escuro);
@@ -218,7 +240,13 @@ footer p {
 
 /* responsividade tablet */
 @media(max-width:988px) {
-  
+  #servicos {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
   .banner-1 {
     background-image: url(../assets/fundo-home-mobile.jpg);
   }
